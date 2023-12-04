@@ -8,8 +8,6 @@ from ps9pr1 import Board
 
 # write your class below.
 class Player:
-    """ a data type for a Connect Four player with a name and checker
-    """
     def __init__(self, checker):
         """ initialize Player
         """
@@ -31,7 +29,7 @@ class Player:
             return 'X'
 
     def next_move(self, b):
-        """ accepts a Board object as a parameter and returns the column where the player wants to make the next move.
+        """ accepts a Board object as a parameter and asks the user to select next column
         """
         self.num_moves += 1
         while True:
