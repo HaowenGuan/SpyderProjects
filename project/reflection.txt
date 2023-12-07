@@ -1,0 +1,38 @@
+1. Which source bodies of text did you choose? Which new texts/bodies of text did you choose to compare against the sources?
+
+My two source bodies are Sheldon script and Leonard script from The Big Bang Theory show.
+
+I have 4 new/testing bodies:
+a. 1000 lines of Sheldon
+b. 1000 lines of Leonard
+c. dialogue of Belle from Beauty and the Beast
+d. dialogue of Beast from Beauty and the Beast
+
+2. What were the results of your comparisons?
+
+scores for sheldon: [-107653.45242694161, -33335.332559298935, -104743.76940358579, -5886.426445161651, -10619.101728490337]
+scores for leonard: [-108265.76604579356, -33575.741863366384, -105492.76746945211, -5931.173046832376, -10900.354016360776]
+sheldon vs leonard: -262238.0825634783 vs -264165.8024418052
+sheldon_test is more likely to have come from sheldon
+scores for sheldon: [-62584.75112360946, -19334.330636843984, -60875.127688591674, -4082.9764515941224, -7666.228441871286]
+scores for leonard: [-60824.01459696118, -19253.0607871484, -59290.046099194406, -4048.3504126659245, -7260.4609887850065]
+sheldon vs leonard: -154543.41434251054 vs -150675.9328847549
+leonard_test is more likely to have come from leonard
+scores for sheldon: [-8614.709590041779, -2426.278987232557, -8269.309212026528, -869.2724332932618, -1547.1616338493873]
+scores for leonard: [-8460.065174112897, -2421.0761002047093, -8120.254039149587, -853.3089844913834, -1556.1375866727308]
+sheldon vs leonard: -21726.731856443515 vs -21410.84188463131
+belle is more likely to have come from leonard
+scores for sheldon: [-4046.585140526596, -1149.9807503776785, -3877.864663608471, -626.9908568923083, -803.6067640363442]
+scores for leonard: [-3948.071810698056, -1140.972986425197, -3780.806499115661, -616.0384588825088, -804.5455142633336]
+sheldon vs leonard: -10505.028175441399 vs -10290.435269384758
+beast is more likely to have come from leonard
+
+Conclusion:
+a. Sheldon is classified as Sheldon
+b. Leonard is classified as Leonard
+c. Belle is classified as Leonard
+d. Beast is classified as Leonard
+
+3. How well do you think your text classification program works? How could it be improved?
+
+I think it works pretty well. I think it could be improved by using more data and more features.
