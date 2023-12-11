@@ -205,4 +205,3 @@ def run_tests():
     beast.add_file('beast_test_text.txt')
     beast.classify(source1, source2)
 
-run_tests()
